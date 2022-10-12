@@ -1,9 +1,16 @@
-let App =()=>{
+import Login from './component/Login'
+import Footer from './component/Footer'
+import Navbar from './Navbar/Navbar'
+
+
+let App = () => {
     return <div>
-        <h1>Good morning</h1>
-        <h2>Good afternoon</h2>
-        <h3> Good night</h3>
+        <h1> hello react</h1>
+        <login />
+        <Footer />
+        <Navbar/>
     </div>
+
 
 }
 export default App
