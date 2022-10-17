@@ -1,16 +1,11 @@
-import Login from './component/Login'
-import Footer from './component/Footer'
-import Navbar from './Navbar/Navbar'
-
-import Employee from "./classcomponent/Employee"
+import React from 'react'
+import CompA from './probs/CompA'
+import CompC from './probex/classtoclasscomponent/Compc'
 let App = () => {
     return <div>
-        <h1> hello react</h1>
-        
-        <Employee/>
+        <CompA/>
+        <CompC/>
 
-        <Footer />
-        <Navbar/>
     </div>
 
 
