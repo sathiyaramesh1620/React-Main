@@ -1,10 +1,12 @@
 import React from 'react'
 import CompA from './probs/CompA'
-import CompC from './probex/classtoclasscomponent/Compc'
+// import FunA from './probsEx/funtofuncomponent'
+import Message from '../../React-backup/state/Message'
 let App = () => {
     return <div>
         <CompA/>
-        <CompC/>
+        {/* <FunA/> */}
+        <Message/>
 
     </div>
 
