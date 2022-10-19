@@ -1,12 +1,13 @@
+
 import React from 'react'
-import CompA from './probs/CompA'
-// import FunA from './probsEx/funtofuncomponent'
-import Message from '../../React-backup/state/Message'
+
+//import Counter from './state/counter/counter'
+import Product from './state1/props/product'
 let App = () => {
     return <div>
-        <CompA/>
-        {/* <FunA/> */}
-        <Message/>
+        
+        {/* <Counter/> */}
+        <Product/>
 
     </div>
 
