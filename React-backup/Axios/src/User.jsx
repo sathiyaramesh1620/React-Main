@@ -7,7 +7,7 @@ class User extends React.Component {
         Axios.get('https://jsonplaceholder.typicode.com/users')
             .then((response) => {
                 this.setState({ persons: response.data })
-            }).catch(()=>{})
+            }).catch(() => { })
     }
 
     render() {
@@ -29,20 +29,20 @@ class User extends React.Component {
                                 </thead>
                                 <tbody>
                                     {
-                                    this.state.persons.length > 0 ? <>
-                                    {
-                                        this.state.persons.map((user) => {
-                                            return <tr key={user.id}>
-                                                <td>{user.id}</td>
-                                                <td>{user.name}</td>
-                                                <td>{user.email}</td>
-                                            </tr>
+                                        this.state.persons.length > 0 ? <>
+                                            {
+                                                this.state.persons.map((user) => {
+                                                    return <tr key={user.id}>
+                                                        <td>{user.id}</td>
+                                                        <td>{user.name}</td>
+                                                        <td>{user.email}</td>
+                                                    </tr>
 
-                                        })
+                                                })
+                                            }
+
+                                        </> : <>no data</>
                                     }
-                                    
-                                    </> : <>no data</>
-                                }
                                 </tbody>
                             </table>
                         </div>

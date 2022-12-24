@@ -1,0 +1,37 @@
+.nav{
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-left{
+
+}
+.nav-left img{
+
+}
+.nav-right-list{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+li{
+    margin:10px;
+}
+.li-link{
+    height:100px;
+    list-style: none;
+    text-decoration: none;
+    color:aliceblue;
+
+}
+.li-link:hover{
+    text-decoration: none;
+    background-color: azure;
+    color:rgb(50,50,50);
+
+}
+.homeLogo{
+    height:100px;
+}
