@@ -1,10 +1,9 @@
 import React from 'react'
-import RegForm from './Forms/RegForm'
-
+import Table from './Components/Table'
 const App = () => {
   return (
     <div>
-      <RegForm/>
+        <Table/>
     </div>
   )
 }
