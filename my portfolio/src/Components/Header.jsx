@@ -11,11 +11,11 @@ const Header = () => {
                 <div className='header_right'>
                     <Link to="about" smooth={true} duration={500}>
                         <h4> About me</h4></Link>
-                    <Link to="skill" smooth={true} duration={500}>
+                    <Link to="skills" smooth={true} duration={500}>
                         <h4>Skills</h4>
                     </Link>
 
-                    <Link to="projects" smooth={true} duration={500}>
+                    <Link to="project" smooth={true} duration={500}>
                         <h4>projects</h4>
                     </Link>
                     <Link to="exp" smooth={true} duretion={500}>

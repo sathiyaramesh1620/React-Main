@@ -1,8 +1,8 @@
 .topcontainer{
-    background: url("../../assets/one.jpeg");
+    background-color: url("../../assets/one.jpeg");
     height:100vh ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: insert 0 0 0 2000px rgbaa(0,0,0,0,);
+    box-shadow: insert 0 0 0 2000px rgba(0,0,0,0.5);
 }

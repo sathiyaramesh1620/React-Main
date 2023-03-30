@@ -1,15 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 .header{
     display: flex;
     align-items: center;
     color: white;
     background-color: black;
     top: 0;
-    position: static;
+    position: sticky;
     z-index: 2000;
+    
 }
 .header_left{
     flex:0.4
@@ -34,7 +35,7 @@
     cursor:pointer;
     transition: transform 200ms ease-in-out;
     font-family: "crimsom text",serif;
-    padding:20px ;
+    padding:20px 0 ;
     letter-spacing:1px ;
 }
 .header_right>a>h4:hover{
@@ -45,7 +46,7 @@
     ;
     border-radius: 2px;
     letter-spacing: 1px;
-    font-family: "crimsons text",serif;
+    font-family: "Crimson Text",serif;
     font-size: 15px;
     cursor: pointer;
 
