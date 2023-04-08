@@ -12,7 +12,9 @@ const LoginId = () => {
         }
     }
   return (
-    <div>
+    <div className='container mt-5'>
+        <div className="row">
+            <div className="col-md-6">
         {
             loggedIn?(
                 <p>You are logged in! </p>
@@ -30,7 +32,8 @@ const LoginId = () => {
                 </form>
             )
         }
-
+        </div>
+</div>
     </div>
   )
 }
